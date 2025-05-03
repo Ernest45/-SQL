@@ -23,6 +23,7 @@ public class 윳놀이 {
                     count++;
                 }
             }
+            // 스위치 문으로 판별했는데 그러지말고 EABCD로 두고 count에 맞게 index 접근하면 그 값이 된다..
             switch(count) {
                 case 0:
                     System.out.println("E");
