@@ -1,0 +1,5 @@
+SELECT COUNT(*) AS USERS
+FROM USER_INFO
+WHERE JOINED LIKE '2021%' AND 2021 AND AGE BETWEEN 20 AND 29;
+--데이트의 경우 like 문자열 가능이고
+-- 20~29라면 between 쓰기!
